@@ -1,0 +1,249 @@
+/* Site Wide */
+* {
+	font-family: "Josefin Sans", sans-serif;
+	box-sizing: border-box;
+	color: #ffffff;
+	background-color: #444;
+}
+
+/* Header */
+header {
+	display: grid;
+	grid-template-columns: 24px auto 44px;
+	padding: 5px 0 5px 10px;
+	align-items: end;
+	border-bottom: solid 1px #ffffff;
+	column-gap: 8px;
+}
+
+header img {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding-bottom: 5px;
+}
+
+header span {
+	font-size: 1.2;
+	color: white;
+	padding-bottom: 5px;
+}
+
+/* Hamburger Navigation */
+.hamburger {
+	background: none;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+	content: "\2630";
+	font-size: 2rem;
+}
+
+.hamburger.show::before {
+	content: "\00D7";
+	font-size: 2rem;
+}
+
+/* Navigation */
+.navigation {
+	display: none;
+}
+
+.navigation.show {
+	display: block;
+}
+
+.navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation a {
+	display: block;
+	padding: 0.8rem 10px;
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom: solid 1px #ddd;
+}
+
+.navigation a:hover {
+	background-color: #006400;
+}
+
+.navigation li.current {
+	background-color: #eee;
+}
+
+h1 {
+	margin-left: 10px;
+}
+
+#content {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.5fr 1fr 0.5fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+		"about"
+		"photo"
+		"certificates";
+}
+
+#about {
+	grid-area: about;
+}
+
+#photo {
+	grid-area: photo;
+}
+
+#certificates {
+	grid-area: certificates;
+}
+
+#content div h2 {
+	color: #000000;
+	text-align: center;
+	border: 2px solid #000000;
+	border-radius: 0.5rem;
+	background-color: lightgray;
+}
+
+#about p {
+	max-width: 90%;
+	margin-left: 5%;
+}
+
+#photo img {
+	max-width: 90%;
+	margin-left: 5%;
+	border-radius: 0.5rem;
+	max-height: auto;
+}
+
+#certificates {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 0.1fr 0.1 0.1fr 1fr 1fr 1fr;
+	gap: 0px 0px;
+	grid-template-areas:
+		"h2 h2 h2"
+		"all cse wdd"
+		"c1 c1 c1"
+		"c2 c2 c2"
+		"c3 c3 c3"
+		"creds creds creds";
+}
+
+#certificates h2 {
+	grid-area: h2;
+}
+
+.all {
+	grid-area: all;
+	color: #000000;
+	text-align: center;
+	align-self: center;
+	border: 2px solid #000000;
+	border-radius: 0.5rem;
+	background-color: lightgray;
+	width: 95%;
+	margin-left: 2.5%;
+}
+
+.cse {
+	grid-area: cse;
+	color: #000000;
+	text-align: center;
+	align-self: center;
+	border: 2px solid #000000;
+	border-radius: 0.5rem;
+	background-color: lightgray;
+	width: 95%;
+	margin-left: 2.5%;
+}
+
+.wdd {
+	grid-area: wdd;
+	color: #000000;
+	text-align: center;
+	align-self: center;
+	border: 2px solid #000000;
+	border-radius: 0.5rem;
+	background-color: lightgray;
+	width: 95%;
+	margin-left: 2.5%;
+}
+
+.c1 {
+	grid-area: c1;
+	color: #000000;
+	text-align: center;
+	align-self: center;
+	border: 2px solid #000000;
+	border-radius: 0.5rem;
+	background-color: lightgray;
+	width: 95%;
+	margin-left: 2.5%;
+}
+
+.c2 {
+	grid-area: c2;
+	color: #000000;
+	text-align: center;
+	align-self: center;
+	border: 2px solid #000000;
+	border-radius: 0.5rem;
+	background-color: lightgray;
+	width: 95%;
+	margin-left: 2.5%;
+}
+
+.c3 {
+	grid-area: c3;
+	color: #000000;
+	align-self: center;
+	text-align: center;
+	border: 2px solid #000000;
+	border-radius: 0.5rem;
+	background-color: lightgray;
+	width: 95%;
+	margin-left: 2.5%;
+}
+
+.creds {
+	grid-area: creds;
+}
+
+#certificates p {
+	text-align: center;
+}
+
+footer * {
+	text-align: center;
+	background-color: #006400;
+}
+
+footer {
+	text-align: center;
+	background-color: #006400;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.socials {
+	display: flex;
+}
+
+.socials img {
+	width: 50%;
+	display: block;
+	margin:auto;
+}

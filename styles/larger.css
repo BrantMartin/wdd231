@@ -1,0 +1,52 @@
+@media only screen and (min-width: 38rem) {
+	header,
+	main,
+	nav,
+	footer {
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
+	header {
+		grid-template-columns: 24px auto;
+	}
+
+	.hamburger {
+		display: none;
+	}
+
+	.navigation {
+		display: block;
+		border-bottom: solid 1px #eee;
+	}
+
+	.navigation ul {
+		display: flex;
+	}
+
+	.navigation a {
+		border: none;
+	}
+
+	#content {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1.2fr;
+		grid-template-rows: 1fr 0.5fr;
+		gap: 0px 5px;
+		grid-template-areas:
+			"about about photo"
+			"certificates certificates certificates";
+	}
+
+	#certificates {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		gap: 0px 0px;
+		grid-template-areas:
+			"h2 h2 h2"
+			"all cse wdd"
+			"c1 c2 c3"
+			"creds creds creds";
+	}
+}
