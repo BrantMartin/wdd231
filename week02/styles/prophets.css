@@ -1,0 +1,29 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #444;
+}
+
+#cards {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: auto-fit;
+}
+
+h1 {
+    background-color: darkslategrey;
+    color: azure;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+section {
+    color: azure;
+    font-size: larger;
+    border: 1px solid azure;
+    border-radius: 0.4rem;
+    width: 50%;
+    margin-left: 25%;
+    padding: 1rem;
+}
