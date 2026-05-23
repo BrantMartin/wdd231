@@ -1,0 +1,74 @@
+{
+	"businesses": [
+		{
+			"name": "Apex Cyber Analytics",
+			"address": "1042 Innovation Way, Suite 400, Austin, TX 78701",
+			"phone": "512-555-0143",
+			"url": "https://www.apexcyberanalytics.fake",
+			"img": "./images/corporate-alt.svg",
+			"level": "3",
+			"email": "fake@fake.com",
+			"established": "2018"
+		},
+		{
+			"name": "GreenLeaf Urban Cultivation",
+			"address": "789 Cascade Avenue, Portland, OR 97205",
+			"phone": "503-555-0188",
+			"url": "https://www.greenleafcultivation.fake",
+			"img": "./images/corporate-alt.svg",
+			"level": "2",
+			"email": "fake@fake.com",
+			"established": "2021"
+		},
+		{
+			"name": "Blue Horizon Logistics",
+			"address": "3200 Maritime Blvd, Savannah, GA 31401",
+			"phone": "912-555-0122",
+			"url": "https://www.bluehorizonlogistics.fake",
+			"img": "./images/corporate-alt.svg",
+			"level": "3",
+			"email": "fake@fake.com",
+			"established": "2012"
+		},
+		{
+			"name": "Nova Roast Coffee Co.",
+			"address": "542 Espresso Lane, Seattle, WA 98101",
+			"phone": "206-555-0195",
+			"url": "https://www.novaroastcoffee.fake",
+			"img": "./images/corporate-alt.svg",
+			"level": "1",
+			"email": "fake@fake.com",
+			"established": "2024"
+		},
+		{
+			"name": "Vanguard Biotech Solutions",
+			"address": "88 Science Park Drive, Cambridge, MA 02139",
+			"phone": "617-555-0171",
+			"url": "https://www.vanguardbiotech.fake",
+			"img": "./images/corporate-alt.svg",
+			"level": "3",
+			"email": "fake@fake.com",
+			"established": "2015"
+		},
+		{
+			"name": "Summit Peak Apparel",
+			"address": "1420 Alpine Ridge Road, Denver, CO 80202",
+			"phone": "303-555-0164",
+			"url": "https://www.summitpeakapparel.fake",
+			"img": "./images/corporate-alt.svg",
+			"level": "2",
+			"email": "fake@fake.com",
+			"established": "2019"
+		},
+		{
+			"name": "PixelPerfect Creative Agency",
+			"address": "650 Design District Loop, Los Angeles, CA 90028",
+			"phone": "323-555-0109",
+			"url": "https://www.pixelperfectcreative.fake",
+			"img": "./images/corporate-alt.svg",
+			"level": "1",
+			"email": "fake@fake.com",
+			"established": "2022"
+		}
+	]
+}

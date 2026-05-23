@@ -95,7 +95,11 @@ header span {
 		"forecast"
 		"bus1"
 		"bus2"
-		"bus3";
+		"bus3"
+		"bus4"
+		"bus5"
+		"bus6"
+		"bus7";
 }
 
 #events {
@@ -120,6 +124,22 @@ header span {
 
 #bus3 {
 	grid-area: bus3;
+}
+
+#bus4 {
+	grid-area: bus4;
+}
+
+#bus5 {
+	grid-area: bus5;
+}
+
+#bus6 {
+	grid-area: bus6;
+}
+
+#bus7 {
+	grid-area: bus7;
 }
 
 /* Main Style */
@@ -176,8 +196,30 @@ h1 {
 	margin-top: 0.5em;
 }
 
+.box2 img {
+	max-width: 20%;
+	margin-left: 10%;
+	padding-bottom: 1em;
+	align-self: right;
+}
+
 .box2 p {
 	border-bottom: 1px solid #f7fafc;
+	padding-bottom: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.box2 div {
+	display: flex;
+	text-align: left;
+}
+
+.box2 div div {
+	display: inline;
+}
+
+.box2 div div p{
+	border: none;
 }
 
 /* Footer */
