@@ -1,9 +1,9 @@
 /* Site Wide */
 * {
-	font-family: "Josefin Sans", sans-serif;
+	font-family: "Roboto", sans-serif;
 	box-sizing: border-box;
-	color: #ffffff;
-	background-color: #444;
+	color: #f7fafc;
+	background-color: #121212;
 }
 
 /* Header */
@@ -12,7 +12,7 @@ header {
 	grid-template-columns: 24px auto 44px;
 	padding: 5px 0 5px 10px;
 	align-items: end;
-	border-bottom: solid 1px #ffffff;
+	border-bottom: solid 1px #f7fafc;
 	column-gap: 8px;
 }
 
@@ -25,7 +25,7 @@ header img {
 
 header span {
 	font-size: 1.2;
-	color: white;
+	color: #f7fafc;
 	padding-bottom: 5px;
 }
 
@@ -33,7 +33,7 @@ header span {
 .hamburger {
 	background: none;
 	border: none;
-	color: #ffffff;
+	color: #f7fafc;
 	cursor: pointer;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -66,13 +66,13 @@ header span {
 .navigation a {
 	display: block;
 	padding: 0.8rem 10px;
-	color: #ffffff;
+	color: #f7fafc;
 	text-decoration: none;
 	border-bottom: solid 1px #ddd;
 }
 
 .navigation a:hover {
-	background-color: #006400;
+	background-color: #0055CC;
 }
 
 .navigation li.current {
@@ -100,11 +100,11 @@ header span {
 }
 
 #content section h2 {
-	color: #000000;
+	color: #f7fafc;
 	text-align: center;
 	border: 2px solid #000000;
 	border-radius: 0.5rem;
-	background-color: lightgray;
+	background-color: #4a5568;
 }
 
 #about p {
@@ -141,72 +141,72 @@ header span {
 
 .all {
 	grid-area: all;
-	color: #000000;
+	color: #f7fafc;
 	text-align: center;
 	align-self: center;
 	border: 2px solid #000000;
 	border-radius: 0.5rem;
-	background-color: lightgray;
+	background-color: #4a5568;
 	width: 95%;
 	margin-left: 2.5%;
 }
 
 .cse {
 	grid-area: cse;
-	color: #000000;
+	color: #f7fafc;
 	text-align: center;
 	align-self: center;
 	border: 2px solid #000000;
 	border-radius: 0.5rem;
-	background-color: lightgray;
+	background-color: #4a5568;
 	width: 95%;
 	margin-left: 2.5%;
 }
 
 .wdd {
 	grid-area: wdd;
-	color: #000000;
+	color: #f7fafc;
 	text-align: center;
 	align-self: center;
 	border: 2px solid #000000;
 	border-radius: 0.5rem;
-	background-color: lightgray;
+	background-color: #4a5568;
 	width: 95%;
 	margin-left: 2.5%;
 }
 
 .c1 {
 	grid-area: c1;
-	color: #000000;
+	color: #f7fafc;
 	text-align: center;
 	align-self: center;
 	border: 2px solid #000000;
 	border-radius: 0.5rem;
-	background-color: lightgray;
+	background-color: #4a5568;
 	width: 95%;
 	margin-left: 2.5%;
 }
 
 .c2 {
 	grid-area: c2;
-	color: #000000;
+	color: #f7fafc;
 	text-align: center;
 	align-self: center;
 	border: 2px solid #000000;
 	border-radius: 0.5rem;
-	background-color: lightgray;
+	background-color: #4a5568;
 	width: 95%;
 	margin-left: 2.5%;
 }
 
 .c3 {
 	grid-area: c3;
-	color: #000000;
+	color: #f7fafc;
 	align-self: center;
 	text-align: center;
 	border: 2px solid #000000;
 	border-radius: 0.5rem;
-	background-color: lightgray;
+	background-color: #4a5568;
 	width: 95%;
 	margin-left: 2.5%;
 }
@@ -221,12 +221,12 @@ header span {
 
 footer * {
 	text-align: center;
-	background-color: #006400;
+	background-color: #0055CC;
 }
 
 footer {
 	text-align: center;
-	background-color: #006400;
+	background-color: #0055CC;
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
 }
