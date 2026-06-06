@@ -72,7 +72,7 @@ header span {
 }
 
 .navigation a:hover {
-	background-color: #0055CC;
+	background-color: #0055cc;
 }
 
 .navigation li.current {
@@ -221,12 +221,12 @@ header span {
 
 footer * {
 	text-align: center;
-	background-color: #0055CC;
+	background-color: #0055cc;
 }
 
 footer {
 	text-align: center;
-	background-color: #0055CC;
+	background-color: #0055cc;
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
 }
@@ -246,4 +246,31 @@ footer {
 .socials a {
 	width: 100%;
 	margin: auto;
+}
+
+dialog {
+	border: 1px solid rgb(255 255 255 / 10%);
+	border-radius: 0.25rem;
+	padding: 1rem;
+	background-color: #fff;
+	box-shadow: 0 0 3rem #777;
+	width: 90%;
+	max-width: 600px;
+}
+
+::backdrop {
+	background-color: rgb(12 12 12 / 50%);
+}
+
+dialog button {
+	position: absolute;
+	top: 23px;
+	right: 23px;
+	padding: 0.5rem 1rem;
+	border: 1px solid rgb(0 0 0 / 10%);
+	border-radius: 0.25rem;
+}
+
+dialog h2 {
+	margin-top: 2em;
 }

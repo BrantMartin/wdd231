@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Brant Martin" />
+		<meta
+			name="description"
+			content="Homepage for that is to be used throughout WDD231." />
+		<meta property="og:title" content="Check out these WDD231 projects." />
+		<meta
+			property="og:description"
+			content="Homepage for Chamber of Commerce project for WDD231." />
+		<meta property="og:image" content="images/coding.png" />
+		<meta property="og:url" content="" />
+		<title>Chamber Join</title>
+		<link rel="stylesheet" href="styles/normalize.css" />
+		<link rel="stylesheet" href="styles/base.css" />
+		<link rel="stylesheet" href="styles/larger.css" />
+		<script src="scripts/navigation.js" defer></script>
+		<script src="scripts/getdates.js" defer></script>
+		<script src="scripts/modals.js" defer></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet" />
+		<link rel="icon" href="images/favicon.ico" />
+	</head>
+	<body>
+		<header>
+			<img
+				src="images/home.svg"
+				alt="Site Logo"
+				width="512"
+				height="512" />
+			<span>Queen Creek Chamber of Commerce</span>
+			<button id="ham-btn" class="hamburger"></button>
+		</header>
+		<nav id="nav-bar" class="navigation">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Chamber Project</a></li>
+				<li><a href="#">Final Project</a></li>
+			</ul>
+		</nav>
+		<main>
+			<section class="hero">
+				<img src="images/heroimage.jpg" alt="hero image" />
+				<button>Keynote Tickets</button>
+			</section>
+			<h1>Join</h1>
+			<section class="signup">
+				<form method="GET" action="thankyou.html">
+					<label
+						>First Name
+						<input
+							type="text"
+							name="first"
+							required
+							autocomplete="given-name"
+							placeholder="First Name"
+							title="Your First Name"
+					/></label>
+					<label
+						>Last Name
+						<input
+							type="text"
+							name="last"
+							required
+							autocomplete="family-name"
+							placeholder="Last Name"
+							title="Your Last Name"
+					/></label>
+					<label
+						>Organizational Title
+						<input
+							type="text"
+							name="first"
+							required
+							autocomplete="organization-title"
+							title="Your Organizational Title"
+							placeholder="Your Organizational Title"
+							pattern="^[A-Za-z\s-]{7,}$"
+					/></label>
+					<label
+						>Email
+						<input
+							type="email"
+							name="email"
+							required
+							placeholder="example@gmail.com"
+							title="Your Email"
+							autocomplete="email"
+					/></label>
+
+					<label
+						>Cell Phone
+						<input
+							type="tel"
+							name="phone"
+							autocomplete="tel"
+							required
+							title="A Phone Number with dashes"
+							placeholder="987-555-1234"
+					/></label>
+					<label
+						>Business/Organization Name
+						<input
+							type="text"
+							name="busname"
+							required
+							autocomplete="org-name"
+							title="Your Business Name"
+							placeholder="Your Business Name"
+					/></label>
+
+					<h3>Select Level</h3>
+					<label
+						><input type="radio" name="level" value="np" checked />
+						NP Membership</label
+					>
+					<label
+						><input type="radio" name="level" value="bronze" />
+						Bronze Membership</label
+					>
+					<label
+						><input type="radio" name="level" value="silver" />
+						Silver Membership</label
+					>
+					<label
+						><input type="radio" name="level" value="gold" /> Gold
+						Membership</label
+					>
+					<label id="deslabel">
+						Business Description
+						<textarea
+							name="description"
+							required
+							title="Your Business Description"
+							placeholder="Your Business Description"
+							cols="30"
+							rows="6"></textarea>
+					</label>
+					<input
+						type="hidden"
+						name="timestamp"
+						id="timestamp"
+						required />
+
+					<input type="submit" value="Become a Member" />
+				</form>
+				<section>
+					<div class="memCard">
+						<h3>NP Membership</h3>
+						<img src="images/basiccrown.svg" alt="NP Crown">
+						<button id="openOne">Info</button>
+					</div>
+					<div class="memCard">
+						<h3>Bronze Membership</h3>
+						<img src="images/bronzecrown.svg" alt="Bronze Crown">
+						<button id="openTwo">Info</button>
+					</div>
+					<div class="memCard">
+						<h3>Silver Membership</h3>
+						<img src="images/silvercrown.svg" alt="Silver Crown">
+						<button id="openThree">Info</button>
+					</div>
+					<div class="memCard">
+						<h3>Gold Membership</h3>
+						<img src="images/goldcrown.svg" alt="Gold Crown">
+						<button id="openFour">Info</button>
+					</div>
+					<dialog id="modalOne">
+						<h2>NP Membership</h2>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Cupiditate ducimus saepe sed accusantium magni
+							odit obcaecati perferendis id facere deserunt iure,
+							illum dignissimos. Ea quidem eveniet earum id. Qui,
+							alias!
+						</p>
+						<button id="closeOne">Close</button>
+					</dialog>
+					<dialog id="modalTwo">
+						<h2>Bronze Membership</h2>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Cupiditate ducimus saepe sed accusantium magni
+							odit obcaecati perferendis id facere deserunt iure,
+							illum dignissimos. Ea quidem eveniet earum id. Qui,
+							alias!
+						</p>
+						<button id="closeTwo">Close</button>
+					</dialog>
+					<dialog id="modalThree">
+						<h2>Silver Membership</h2>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Cupiditate ducimus saepe sed accusantium magni
+							odit obcaecati perferendis id facere deserunt iure,
+							illum dignissimos. Ea quidem eveniet earum id. Qui,
+							alias!
+						</p>
+						<button id="closeThree">Close</button>
+					</dialog>
+					<dialog id="modalFour">
+						<h2>Gold Membership</h2>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Cupiditate ducimus saepe sed accusantium magni
+							odit obcaecati perferendis id facere deserunt iure,
+							illum dignissimos. Ea quidem eveniet earum id. Qui,
+							alias!
+						</p>
+						<button id="closeFour">Close</button>
+					</dialog>
+				</section>
+			</section>
+		</main>
+		<footer>
+			<p><strong>Queen Creek Chamber of Commerce</strong></p>
+			<p>Queen Creek, AZ 555</p>
+			<p>info@notreal.org</p>
+			<p>(555) 555-5555</p>
+			<section class="socials">
+				<a href="https://www.github.com"
+					><img src="images/github.svg" alt="github"
+				/></a>
+				<a href="https://www.linkedin.com"
+					><img src="images/linkedin-circle.svg" alt="linkedin"
+				/></a>
+				<a href="https://www.facebook.com"
+					><img src="images/facebook.svg" alt="facebook"
+				/></a>
+			</section>
+			<p>WDD231 Class Project</p>
+			<p>Brant Martin</p>
+			<p>
+				©<span id="currentyear"></span> Queen Creek Chamber of Commerce
+			</p>
+			<p id="lastmodified"></p>
+		</footer>
+	</body>
+</html>
