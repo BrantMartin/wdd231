@@ -1,0 +1,14 @@
+@media only screen and (min-width: 32rem) {
+	#places div {
+		grid-template-areas:
+			"photograph name"
+			"photograph description"
+			"photograph location"
+			"photograph cost"
+            "photograph button";
+	}
+
+    #places div img {
+        width: 250px;
+    }
+}

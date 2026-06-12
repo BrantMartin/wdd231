@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 64rem) {
 	header,
 	main,
 	nav,
@@ -37,5 +37,10 @@
 		grid-auto-columns: 1fr;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr;
+	}
+
+	#places {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 	}
 }

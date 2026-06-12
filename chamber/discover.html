@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Brant Martin" />
+		<meta
+			name="description"
+			content="Discover page for that is to be used for the chamber project." />
+		<meta property="og:title" content="Check out these WDD231 projects." />
+		<meta
+			property="og:description"
+			content="Discover page for Chamber of Commerce project for WDD231." />
+		<meta property="og:image" content="images/coding.png" />
+		<meta property="og:url" content="" />
+		<title>Chamber Discover</title>
+		<link rel="stylesheet" href="styles/normalize.css" />
+		<link rel="stylesheet" href="styles/base.css" />
+		<link rel="stylesheet" href="styles/medium.css" />
+		<link rel="stylesheet" href="styles/larger.css" />
+		<script src="scripts/navigation.js" defer></script>
+		<script src="scripts/getdates.js" defer></script>
+		<script src="scripts/lastvisit.js" defer></script>
+		<script src="scripts/interesting.js" type="module"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet" />
+		<link rel="icon" href="images/favicon.ico" />
+	</head>
+	<body>
+		<header>
+			<img
+				src="images/home.svg"
+				alt="Site Logo"
+				width="512"
+				height="512" />
+			<span>Queen Creek Chamber of Commerce</span>
+			<button id="ham-btn" class="hamburger"></button>
+		</header>
+		<nav id="nav-bar" class="navigation">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Chamber Project</a></li>
+				<li><a href="#">Final Project</a></li>
+			</ul>
+		</nav>
+		<main>
+			<section class="hero">
+				<img src="images/heroimage.jpg" alt="hero image" />
+				<button>Keynote Tickets</button>
+			</section>
+			<h1>Discover</h1>
+			<p id="visitmessage"></p>
+         <section id="places">
+         </section>
+		</main>
+		<footer>
+			<p><strong>Queen Creek Chamber of Commerce</strong></p>
+			<p>Queen Creek, AZ 555</p>
+			<p>info@notreal.org</p>
+			<p>(555) 555-5555</p>
+			<section class="socials">
+				<a href="https://www.github.com"
+					><img src="images/github.svg" alt="github"
+				/></a>
+				<a href="https://www.linkedin.com"
+					><img src="images/linkedin-circle.svg" alt="linkedin"
+				/></a>
+				<a href="https://www.facebook.com"
+					><img src="images/facebook.svg" alt="facebook"
+				/></a>
+			</section>
+			<p>WDD231 Class Project</p>
+			<p>Brant Martin</p>
+			<p>
+				©<span id="currentyear"></span> Queen Creek Chamber of Commerce
+			</p>
+			<p id="lastmodified"></p>
+		</footer>
+	</body>
+</html>
