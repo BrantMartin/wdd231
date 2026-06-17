@@ -1,0 +1,139 @@
+{
+	"hikes": [
+		{
+			"location_name": "Bright Angel Trail",
+			"address": "1 South Entrance Road, Grand Canyon Village, 86023, USA",
+			"city": "Grand Canyon Village",
+			"hike_length": "12.0 miles",
+			"estimated_hike_time": "6-9 hours",
+			"latitude": 36.0573,
+			"longitude": -112.1439
+		},
+		{
+			"location_name": "Devil's Bridge Trail",
+			"address": "Dry Creek Road, Sedona, 86336, USA",
+			"city": "Sedona",
+			"hike_length": "3.9 miles",
+			"estimated_hike_time": "2 hours",
+			"latitude": 34.8976,
+			"longitude": -111.8076
+		},
+		{
+			"location_name": "Camelback Mountain via Echo Canyon Trail",
+			"address": "4925 E McDonald Dr, Phoenix, 85018, USA",
+			"city": "Phoenix",
+			"hike_length": "2.5 miles",
+			"estimated_hike_time": "2-3 hours",
+			"latitude": 33.5215,
+			"longitude": -111.9729
+		},
+		{
+			"location_name": "Cathedral Rock Trail",
+			"address": "Back O Beyond Rd, Sedona, 86336, USA",
+			"city": "Sedona",
+			"hike_length": "1.2 miles",
+			"estimated_hike_time": "1-1.5 hours",
+			"latitude": 34.8252,
+			"longitude": -111.7885
+		},
+		{
+			"location_name": "Havasu Falls Trail",
+			"address": "Hualapai Hilltop Indian Route 18, Supai, 86435, USA",
+			"city": "Supai",
+			"hike_length": "20.0 miles",
+			"estimated_hike_time": "7-10 hours (one way: 4-5 hours)",
+			"latitude": 36.1598,
+			"longitude": -112.7091
+		},
+		{
+			"location_name": "Tom's Thumb Trail",
+			"address": "23015 N 128th St, Scottsdale, 85255, USA",
+			"city": "Scottsdale",
+			"hike_length": "4.0 miles",
+			"estimated_hike_time": "2-3 hours",
+			"latitude": 33.6946,
+			"longitude": -111.8037
+		},
+		{
+			"location_name": "Piestewa Peak Summit Trail",
+			"address": "2701 E Squaw Peak Dr, Phoenix, 85020, USA",
+			"city": "Phoenix",
+			"hike_length": "2.1 miles",
+			"estimated_hike_time": "1.5-2 hours",
+			"latitude": 33.5413,
+			"longitude": -112.0204
+		},
+		{
+			"location_name": "Humphreys Peak Trail",
+			"address": "Arizona Snowbowl Road, Flagstaff, 86001, USA",
+			"city": "Flagstaff",
+			"hike_length": "10.7 miles",
+			"estimated_hike_time": "5-7 hours",
+			"latitude": 35.3341,
+			"longitude": -111.6601
+		},
+		{
+			"location_name": "Wave Cave Trail",
+			"address": "Peralta Road, Gold Canyon, 85118, USA",
+			"city": "Gold Canyon",
+			"hike_length": "3.3 miles",
+			"estimated_hike_time": "2 hours",
+			"latitude": 33.3853,
+			"longitude": -111.3533
+		},
+		{
+			"location_name": "Bell Rock Pathway",
+			"address": "4999 State Route 179, Sedona, 86336, USA",
+			"city": "Sedona",
+			"hike_length": "3.6 miles",
+			"estimated_hike_time": "1.5-2 hours",
+			"latitude": 34.7997,
+			"longitude": -111.7617
+		},
+		{
+			"location_name": "Seven Falls Trail",
+			"address": "5700 N Sabino Canyon Rd, Tucson, 85750, USA",
+			"city": "Tucson",
+			"hike_length": "8.4 miles",
+			"estimated_hike_time": "3-4 hours",
+			"latitude": 32.3121,
+			"longitude": -110.8223
+		},
+		{
+			"location_name": "Flatiron via Siphon Draw Trail",
+			"address": "6109 N Apache Trail, Apache Junction, 85119, USA",
+			"city": "Apache Junction",
+			"hike_length": "5.5 miles",
+			"estimated_hike_time": "4-5 hours",
+			"latitude": 33.4593,
+			"longitude": -111.4828
+		},
+		{
+			"location_name": "Antelope Canyon (Lower)",
+			"address": "Indian Route 222, Page, 86040, USA",
+			"city": "Page",
+			"hike_length": "1.1 miles",
+			"estimated_hike_time": "1-1.5 hours",
+			"latitude": 36.9026,
+			"longitude": -111.4112
+		},
+		{
+			"location_name": "Picacho Peak Hunter Trail",
+			"address": "15520 Picacho Peak Rd, Picacho, 85141, USA",
+			"city": "Picacho",
+			"hike_length": "2.7 miles",
+			"estimated_hike_time": "2-3 hours",
+			"latitude": 32.6457,
+			"longitude": -111.3995
+		},
+		{
+			"location_name": "West Fork Trail",
+			"address": "State Route 89A, Sedona, 86336, USA",
+			"city": "Sedona",
+			"hike_length": "7.2 miles",
+			"estimated_hike_time": "3-4 hours",
+			"latitude": 34.9904,
+			"longitude": -111.7441
+		}
+	]
+}

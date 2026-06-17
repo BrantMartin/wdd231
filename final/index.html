@@ -6,13 +6,13 @@
 		<meta name="author" content="Brant Martin" />
 		<meta
 			name="description"
-			content="This is a site plan for a website about hiking in Arizona" />
-		<meta property="og:title" content="Site Plan" />
+			content="This is the homepage for a website about hiking in Arizona" />
+		<meta property="og:title" content="Homepage" />
 		<meta
 			property="og:description"
-			content="This is a site plan for a website about hiking in Arizona" />
-		<meta property="og:image" content="images/hiking.jpeg" />
-		<meta property="og:url" content=""/>
+			content="This is the homepage for a website about hiking in Arizona" />
+		<meta property="og:image" content="images/hiking.webp" />
+		<meta property="og:url" content="" />
 		<title>Arizona Hiking</title>
 		<link rel="stylesheet" href="styles/base.css" />
 		<link rel="stylesheet" href="styles/larger.css" />
@@ -24,6 +24,7 @@
 		<link rel="icon" href="images/favicon.png" />
 		<script type="module" src="modules/navigation.mjs"></script>
 		<script type="module" src="modules/getdates.mjs"></script>
+		<script src="scripts/weather.js" defer></script>
 	</head>
 	<body>
 		<header>
@@ -33,7 +34,7 @@
 				width="512"
 				height="512"
 				loading="lazy" />
-			<span>Site Plan</span>
+			<span>Home</span>
 			<button id="ham-btn" class="hamburger"></button>
 		</header>
 		<nav id="nav-bar" class="navigation">
@@ -45,28 +46,37 @@
 			</ul>
 		</nav>
 		<main>
-			<h1 id="siteUrl">Site Name: hiking-az.org</h1>
-			<h3>Purpose:</h3>
-			<p>
-				This site provides a way to check the weather of different
-				popular hiking spots in arizona.
-			</p>
-			<h3>Scenarios:</h3>
-			<p>-Is it too hot to hike the spot I want to go to?</p>
-			<p>-What is the best weather hiking spot?</p>
-			<p>-Can I get more info about hiking in arizona?</p>
-			<h3>Color Scheme:</h3>
-			<p>Primary Color: Pine Teal #135349</p>
-			<p>Secondary Color: Cinnabar #FE4134</p>
-			<p>Background Color: Celadon #BFEDC7</p>
-			<p>
-				Typeface Color: Black on background Whitesmoke on Primary and
-				Secondary Colors
-			</p>
-			<h3>Typography:</h3>
-			<p>Font: Cabin(Google Fonts)</p>
-			<h3>Wireframe:</h3>
-			<img class="siteplanimg" src="images/AZ Hiking.drawio.png" alt="Site Plan" loading="lazy"/>
+			<section class="hero">
+				<img src="images/hiking.webp" alt="hero image" loading="lazy" />
+			</section>
+			<section class="purpose">
+				<h3>Our Purpose</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Eveniet est unde ad laborum molestiae asperiores sint
+					voluptatibus beatae voluptate vel neque voluptas, magni et
+					veniam minima earum ipsum sit dignissimos!
+				</p>
+			</section>
+			<section class="weathercard">
+				<h3>Bright Angel Trail</h3>
+				<p>
+					The current temperature in Grand Canyon Village is
+					<span class="current-temp"></span>
+				</p>
+				<figure>
+					<img class="weather-icon" src="" alt="" loading="lazy"/>
+					<figcaption class="weather-caption"></figcaption>
+				</figure>
+			</section>
+			<section class="pagebuttons">
+				<div class="moreweather">
+					<h3><a href="locations.html">More Locations</a></h3>
+				</div>
+				<div class="newsletter">
+					<h3><a href="form.html">Newsletter</a></h3>
+				</div>
+			</section>
 		</main>
 		<footer>
 			<p>©<span id="currentyear"></span> ⛰️ Brant Martin ⛰️ USA</p>
