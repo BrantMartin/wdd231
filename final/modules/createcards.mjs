@@ -15,7 +15,7 @@ async function getHikes() {
 	data.hikes.forEach((hike) => {
 		card = document.createElement("section");
 		card.className = "weathercard";
-		heading = document.createElement("h3");
+		heading = document.createElement("h1");
 		heading.innerText = hike.location_name;
 		p = document.createElement("p");
 		p.innerText = `The current temperature in ${hike.city} is `;

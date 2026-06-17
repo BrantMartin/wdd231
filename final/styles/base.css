@@ -28,7 +28,7 @@ header img {
 header span {
 	background-color: #135349;
 	text-align: left;
-	font-size: 1.2;
+	font-size: 1.2em;
 	color: whitesmoke;
 	padding-bottom: 5px;
 }
@@ -77,8 +77,7 @@ header span {
 }
 
 .navigation a:hover {
-	color: black;
-	background-color: #fe4134;
+	background-color: #661a14;
 }
 
 .navigation li.current {
@@ -97,18 +96,20 @@ main {
 	padding: 1rem;
 }
 
+h1 {
+	color: #661a14;
+}
+
 h3 {
-	color: #fe4134;
+	color: #661a14;
 }
 
 .siteplanimg {
 	max-width: 100%;
-	max-height: auto;
 }
 
 .hero {
 	position: relative;
-	margin-bottom: 1em;
 }
 
 .hero img {
@@ -191,19 +192,11 @@ form {
 	label {
 		display: block;
 		font-size: 0.8rem;
-		color: #fe4134;
+		color: #661a14;
 		padding-top: 0.2rem;
-	}
-	h3 {
-		font-size: 0.9rem;
-		color: #e07a5f;
-		margin: 1.5rem 0 0.2rem 0;
-		border-bottom: 1px solid #eee;
 	}
 
 	input[type="text"],
-	input[type="tel"],
-	input[type="date"],
 	input[type="email"],
 	select {
 		display: block;
